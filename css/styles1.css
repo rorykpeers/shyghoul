@@ -1,0 +1,63 @@
+body{
+    background-image:url(../images/shyghoul2.JPG);
+    padding: 100px 100px;
+    margin: 200px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+h1{
+    text-align: left;
+    text-shadow: 2px 2px black;
+    color: forestgreen;
+    border-color: black;
+    font-size: 50px;
+    font-family: 'Ranchers', cursive;
+
+}
+
+.boxed{
+    border: 10px black;
+    box-shadow: 0 0 20px 20px black;
+}
+p{
+    text-align: left;
+    text-shadow: 2px 2px black;
+    color: gold;
+    border-color: black;
+    font-size: 20px;
+    font-family: 'Ranchers', cursive;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 50px;
+}
+li {
+    float: right;
+    position:relative;
+    margin-bottom: 600px;
+}
+  
+  a{
+    display: block;
+    padding: 8px;
+}
+
+li a{
+    display:block;
+    color: forestgreen;
+    text-align: right;
+    text-shadow: 2px 2px black;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+}
+ 

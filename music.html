@@ -1,43 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
     <title>Music</title>
     <link rel="stylesheet" href="css/styles2.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 </head>
-<ul>
+<body class="music-page">
+<ul class="main-menu">
     <li><a href="index.html">Home</a></li>
     <li><a href="bio.html">Bio</a></li>
     <li><a href="music.html">Music</a></li>
     <li><a href="gallery.html">Gallery</a></li>
-    <link rel="stylesheet" href="css/styles2.css">
-    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
-    </ul>
-<body>
-    <h1>Music</h1>
+    
+</ul>
+    <h1 class="title">Music</h1>
     <div class="container">
+	<h2 class="mobtab subtitle">Latest Video</h2><!--mob & tab only-->
     <iframe class="responsive-iframe" width="560" height="315" src="https://www.youtube.com/embed/SfCXnpC95RE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
     src="https://www.youtube.com/watch?v=SfCXnpC95RE"></iframe>
     </div>
     <br>
     <div class="cont">
+	<h3 class="mobtab subtitle">Listen on Spotify</h3><!--mob & tab only-->
     <iframe class="responsive-iframe-link" src="https://open.spotify.com/embed/album/76En4BHpfX165UEyTtSAkx" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
     </div>
-    <h2>Latest Video</h2>
-    <link rel="stylesheet" href="css/styles2.css">
-    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <h2 class="pc">Latest Video</h2><!--pc only-->
+    <!--<link rel="stylesheet" href="css/styles2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">-->
     <br>
-    <h3>Listen on Spotify</h3>
-    <link rel="stylesheet" href="css/styles2.css">
-    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <h3 class="pc">Listen on Spotify</h3><!--pc only-->
+    <!--<link rel="stylesheet" href="css/styles2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">-->
     <br>
-    <h4>Listen on Apple Music</h4>
-    <link rel="stylesheet" href="css/styles2.css">
-    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <h4 class="subtitle">Listen on Apple Music</h4>
+    <!--<link rel="stylesheet" href="css/styles2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">-->
     <div class="contain">
         <iframe class="responsive-iframe-apple" allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/gb/album/shyghoul/1510909880"></iframe>
     </div>
+	
+<script src="js/responsive.js"></script>
 </body>
 </html>

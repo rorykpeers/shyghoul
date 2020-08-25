@@ -1,0 +1,316 @@
+/* CSS Document */
+
+.home nav ul li {
+    display: block;
+    float: none;
+    clear: both;
+    width: 100%;
+}
+
+
+
+
+/* general ends ********************************************************************************/
+
+@media screen and (min-width:768px) and (max-width:1023px){
+
+* {
+    box-sizing: border-box;
+}
+img { max-width:100% !important; height:auto;}
+html body {
+    margin: auto;
+    padding: 0;
+    min-height: 100vh;
+}
+div.boxed {
+    padding: 50px 15px;
+}
+.gallery-page h1.title {
+    margin-top: 50px;
+    margin-left: auto;
+}
+.music-page h1.title {
+    margin-top: 50px;
+    margin-left: auto;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+div.container {
+    width: 100%;
+    height: auto;
+    float: none;
+    clear: both;
+    left: auto;
+    right: auto;
+    padding: 15px 15px;
+}
+iframe.responsive-iframe {
+    position: relative;
+    bottom: auto;
+    right: auto;
+    left: auto;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.cont {
+    float: none;
+    clear: both;
+    left: auto;
+    width: 100%;
+    height: auto;
+    padding: 0 15px;
+}
+iframe.responsive-iframe-link {
+    position: relative;
+    top: auto;
+    right: auto;
+    left: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pc {
+	display: none !important;
+}
+body .subtitle {
+    text-align: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 30px;
+}
+div.contain {
+    position: relative;
+    width: 100%;
+    padding: 0 15px;
+    height: auto;
+    float: none;
+    clear: both;
+    right: auto;
+    left: auto;
+    top: auto;
+    margin-bottom: 50px;
+}
+iframe.responsive-iframe-apple {
+    position: relative;
+    display: block;
+    max-width: 90% !important;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+} /* /(min-width:768px) and (max-width:1023px) **************************************************/
+
+@media screen and (max-width:767px){
+
+* {box-sizing:border-box;max-width:100% !important;}
+table {table-layout:fixed; width:100%;}
+img { max-width:100% !important; height:auto;}
+body {margin: 0px;padding: 0px;}
+iframe { max-width:100% !important;}
+object { max-width:100% !important;}
+
+.mob-header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 5px 5px;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 99;
+}
+a.mob_button {
+    display: inline-block;
+}
+ul.main-menu {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 270px;
+    position: fixed;
+    top: 0;
+    left: auto;
+    right: -400px;
+    background-color: forestgreen;
+    height: 100%;
+    max-height: 100%;
+    overflow-y: auto;
+    z-index: 999;
+    transition-duration: 0.5s;
+}
+ul.main-menu li a {
+    color: gold;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    text-shadow: 2px 2px black;
+}
+a.close_button {
+    display: inline-block;
+}
+li.closenav {
+    text-align: right;
+    padding: 0 0 20px 0;
+}
+body {
+    min-height: 100vh;
+    background-position: 20% center;
+}
+h1.title {
+    font-size: 40px;
+    text-shadow: 3px 3px black;
+    clear: both;
+    margin-top: 100px;
+    padding: 15px 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.home h1.title {
+    font-size: 80px;
+    text-shadow: 3px 3px black;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding: 0px 15px;
+}
+ul.main-menu li {
+    display: block;
+    width: 100%;
+    float: none;
+    clear: both;
+    margin: auto;
+}
+div.boxed {
+    padding: 15px 15px;
+}
+.links > a > p {
+    text-align: center;
+    margin: 10px auto;
+}
+.gallery-page h1.title {
+    margin-top: 100px;
+    margin-left: auto;
+}
+.slideshow-container {
+    padding: 0 30px;
+}
+.slideshow-container .next {
+    right: 30px;
+}
+div.container {
+    width: 100%;
+    height: auto;
+    float: none;
+    clear: both;
+    left: auto;
+    right: auto;
+    padding: 15px 15px;
+}
+iframe.responsive-iframe {
+    position: relative;
+    bottom: auto;
+    right: auto;
+    left: auto;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.cont {
+    float: none;
+    clear: both;
+    left: auto;
+    width: 100%;
+    height: auto;
+    padding: 0 15px;
+}
+iframe.responsive-iframe-link {
+    position: relative;
+    top: auto;
+    right: auto;
+    left: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pc {
+	display: none !important;
+}
+body .subtitle {
+    text-align: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 30px;
+}
+div.contain {
+    position: relative;
+    width: 100%;
+    padding: 0 15px;
+    height: auto;
+    float: none;
+    clear: both;
+    right: auto;
+    left: auto;
+    top: auto;
+    margin-bottom: 50px;
+}
+iframe.responsive-iframe-apple {
+    position: relative;
+    display: block;
+    max-width: 100% !important;
+}
+
+
+
+
+
+
+
+} /* /max-width:767px **************************************************************************/
+
+@media screen and (min-width:768px){
+
+.mob-header {
+    display: none !important;
+}
+ul li.closenav {
+    display: none !important;
+}
+.mob {
+	display: none !important;
+}
+
+
+
+
+} /* /min-width:768px **************************************************************************/
+
+
+@media screen and (min-width:1024px){
+
+.mobtab {
+	display: none !important;
+}
+
+
+} /* /min-width:1024px **************************************************************************/

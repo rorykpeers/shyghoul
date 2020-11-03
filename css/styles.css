@@ -1,5 +1,5 @@
 body{
-    background-image:url(../images/shyghoul1.JPG);
+    background-image:url(../images/shy.jpeg);
     padding: 100px 100px;
     margin: 100px;
   
@@ -14,8 +14,8 @@ h1{
     color: forestgreen;
     border-color: black;
     text-decoration: black;
-    font-size: 120px;
-    font-family: 'Caveat', cursive;
+    font-size: 70px;
+    font-family: 'Rock Salt', cursive;
 }
 
 ul{
@@ -35,8 +35,8 @@ li a{
     text-shadow: 2px 2px black;
     padding: 10px 10px;
     text-decoration: none;
-    font-family: 'Caveat', cursive;
-    font-size: 30px;
+    font-family: 'Rock Salt', cursive;
+    font-size: 20px;
     
 }
 
@@ -73,6 +73,7 @@ img { max-width: 100%; height: auto; }
 @media (min-device-width:600px) {
     img[data-src-600px] {
         content: attr(data-src-600px, url);
+        
     }
 }
 
